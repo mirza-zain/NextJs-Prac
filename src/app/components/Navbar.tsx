@@ -5,7 +5,7 @@ const Navbar = () => {
     const [mob, setmob] = useState(false)
   return (
     <>
-    <header className='h-16 p-4 flex justify-between items-center text-black'>
+    <header className='h-16 p-4 flex justify-between items-center'>
         <h1 className='text-xl text-red-400 font-bold '>Gaming Arena</h1>
         {!mob ? (
             <button className='md:hidden text-lg' onClick={() => setmob(true)} title='open'><i className="ri-menu-line"></i></button>
