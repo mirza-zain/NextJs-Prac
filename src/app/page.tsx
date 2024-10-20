@@ -2,8 +2,8 @@
 
 export default function Home() {
   return (
-    <div className="max-w-screen h-screen flex flex-col bg-white">
-    
+    <div className="flex-1">
+        <h1>Home Page</h1>
     </div>
   );
 }

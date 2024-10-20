@@ -25,7 +25,7 @@ import { ReactNode } from "react";
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={"max-w-screen h-screen flex flex-col bg-slate-800 " + `${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Navbar />
         {children}
       </body>
